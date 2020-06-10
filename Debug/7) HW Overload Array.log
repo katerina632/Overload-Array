@@ -1,0 +1,6 @@
+﻿  Array.cpp
+  Source.cpp
+  Generating Code...
+C:\Users\User\Desktop\ITStep\2 курс\ДЗ\7) HW Overload Array\Array.cpp(155): warning C4172: returning address of local variable or temporary: temp
+C:\Users\User\Desktop\ITStep\2 курс\ДЗ\7) HW Overload Array\Array.cpp(146): warning C4172: returning address of local variable or temporary: temp
+  7) HW Overload Array.vcxproj -> C:\Users\User\Desktop\ITStep\2 курс\ДЗ\7) HW Overload Array\Debug\7) HW Overload Array.exe
