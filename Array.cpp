@@ -230,3 +230,24 @@ Array::operator char* () //ne po programists'ki, ale vse shcho zmogla))))
 
 	return res;
 }
+
+int& Array::operator[](int k)
+{
+	static int InCorrect = INT_MIN;
+	if (IsValidPosition(k) == 1 && arr != nullptr) {
+		return arr[k];
+	}
+	else
+	{
+		cout << "Enter correct index!" ;		
+		return InCorrect;
+	}
+	
+}
+
+void Array::operator()(int num)
+{
+	for (int i = 0; i < size; i++) {
+		arr[i] += num;
+	}	
+}

@@ -53,6 +53,11 @@ public:
 	void SaveArr() const;
 
 	operator char* (); 
+
+	int& operator[](int k);
+
+	void operator()(int num);
+	
 	
 
 };

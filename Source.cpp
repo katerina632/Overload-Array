@@ -33,6 +33,11 @@ int main() {
 	
 	cout << (char*)arr1 << endl;	
 	
+	cout << arr1[6] << endl;
+	cout << arr1[1] << endl;
+
+	arr1(2);
+	arr1.Print();
 
 	system("pause");
 	return 0;
